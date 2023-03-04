@@ -14,7 +14,7 @@ let logger: Logger = .init()
 
 let runner: Runner = .init()
 
-func desc(_: String) {
+public func desc(_: String) {
     // no-op, this is handled in fastlane/lane_list.rb
 }
 
